@@ -49,3 +49,4 @@ You can extend Snapshot by purchasing a data subscription and customizing the co
 
 ### Restrictions
 Snapshot shows data for locations in the U.S. and Canada only. The user interface is available in English only.
+
