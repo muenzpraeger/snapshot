@@ -7,18 +7,13 @@ Snapshot adds the following weather data to case pages:
 - Current weather conditions (temperature, chance of precipitation, and wind speed)
 - Weather conditions for the past 24 hours
 
-1. Numbered
-2. List
+You can download the Snapshot unmanaged component from GitHub. To set it up, add the API key from your paid data package subscription from The Weather Company and customize it per your needs. Alternatively, you can use the code as a sample to understand how the API works and then build your own standalone app.
 
-**Bold** and _Italic_ and `Code` text
+Tip: The component is shipped with mock data so you can try it out before you obtain an API key.
 
-[Link](url) and ![Image](src)
-```
+### Obtaining an API Key
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TheWeatherCompany/salesforce-weatherwise-page/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
+By purchasing a data package and access key from The Weather Company, you can include any of the following data streams into Snapshot:
+- Weather Company Data for Salesforce – Core: Daily forecasts for the next 10 days, hourly forecasts for the next 48 hours, and historical weather conditions for the past 24 hours
+- Weather Company Data for Salesforce – Enhanced: More precise and frequent weather observations, precipitation forecast, 15-minute forecast, and Nowcast
+- Weather Company Data for Salesforce – Severe Weather: Information on conditions including hail, lightning, and storms, and a power disruption index
