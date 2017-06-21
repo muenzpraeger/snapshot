@@ -18,11 +18,11 @@ By purchasing a data package and access key from The Weather Company, you can in
 - Weather Company Data for Salesforce – Enhanced: More precise and frequent weather observations, precipitation forecast, 15-minute forecast, and Nowcast
 - Weather Company Data for Salesforce – Severe Weather: Information on conditions including hail, lightning, and storms, and a power disruption index
 
-To purchase a Weather Company data package, [click here] (https://business.weather.com/product-categories/the-weather-company-data-solutions).
+To purchase a Weather Company data package, ! [click here] (https://business.weather.com/product-categories/the-weather-company-data-solutions).
 
 ## Installing and Configuring the Component
 ### System Requirements
-Snapshot is supported for Salesforce editions that include case management. Lightning Experience must be enabled. Snapshot is not supported in Salesforce Classic. Snapshot is supported on all browsers that are supported for Lightning Experience. For details, see Supported Browsers for Lightning Experience.
+Snapshot is supported for Salesforce editions that include case management. Lightning Experience must be enabled. Snapshot is not supported in Salesforce Classic. Snapshot is supported on all browsers that are supported for Lightning Experience. For details, see (Supported Browsers for Lightning Experience) [https://help.salesforce.com/articleView?id=getstart_browsers_sfx.htm].
 
 **Setting Up the Component**
 Prerequisite: Prior to installation, ensure Lightning Experience is enabled (see Enable Lightning Experience). 
