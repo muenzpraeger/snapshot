@@ -18,24 +18,24 @@ By purchasing a data package and access key from The Weather Company, you can in
 - Weather Company Data for Salesforce – Enhanced: More precise and frequent weather observations, precipitation forecast, 15-minute forecast, and Nowcast
 - Weather Company Data for Salesforce – Severe Weather: Information on conditions including hail, lightning, and storms, and a power disruption index
 
-To purchase a Weather Company data package, ! [click here] (https://business.weather.com/product-categories/the-weather-company-data-solutions).
+To purchase a Weather Company data package, ![click here](https://business.weather.com/product-categories/the-weather-company-data-solutions).
 
 ## Installing and Configuring the Component
 ### System Requirements
-Snapshot is supported for Salesforce editions that include case management. Lightning Experience must be enabled. Snapshot is not supported in Salesforce Classic. Snapshot is supported on all browsers that are supported for Lightning Experience. For details, see (Supported Browsers for Lightning Experience) [https://help.salesforce.com/articleView?id=getstart_browsers_sfx.htm].
+Snapshot is supported for Salesforce editions that include case management. Lightning Experience must be enabled. Snapshot is not supported in Salesforce Classic. Snapshot is supported on all browsers that are supported for Lightning Experience. For details, see (Supported Browsers for Lightning Experience)[https://help.salesforce.com/articleView?id=getstart_browsers_sfx.htm].
 
 **Setting Up the Component**
-Prerequisite: Prior to installation, ensure Lightning Experience is enabled (see Enable Lightning Experience). 
+Prerequisite: Prior to installation, ensure Lightning Experience is enabled (see Enable Lightning Experience)[https://help.salesforce.com/articleView?id=lex_enable_intro.htm]. 
 To set up the component:
-1. Get the component from [GitHub] (https://github.com/TheWeatherCompany/Salesforce-Snapshot) and deploy it to Salesforce.
+1. Get the component from [GitHub](https://github.com/TheWeatherCompany/Salesforce-Snapshot) and deploy it to Salesforce.
 2. In Salesforce, create a CSP Trusted Site for https://api.weather.com to access the Weather Company APIs (see Create CSP Trusted Sites to Access Third-Party APIs).
-3. Add the component to the case page by editing the page in the Lightning App Builder (see Configure Lightning Experience Record Pages). 
-  - In the Lightning Components list, scroll down to the Custom – Managed section.
+3. Add the component to the case page by editing the page in the Lightning App Builder (see (Configure Lightning Experience Record Pages)[https://help.salesforce.com/articleView?id=csp_trusted_sites.htm]). 
+  - In the **Lightning Components** list, scroll down to the **Custom – Managed section**.
   - Click Weather Company Snapshot and drag the component to any place on the page.
   - In the properties pane, select the default type of units to display. 
   - Save and activate the updated page.
 4. Add the Weather Location field and Weather Snapshots related list to the case page. The Snapshot component displays the weather for the location specified in the Weather Location custom field. The Weather Snapshots related list displays all the snapshots that are associated with the case.
-  - In Setup > Object Manager, edit the page layout for the case object. 
+  - In **Setup > Object Manager**, edit the page layout for the case object. 
   - Add the Weather Location field to the case detail section. 
   - Add the Weather Snapshots related list to the related lists section. 
 5. Grant users the required permissions for the component. In Setup > Permission Sets, assign users the WeatherSnapshot permission set (see Assign a Permission Set to Multiple Users). 
