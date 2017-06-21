@@ -30,14 +30,14 @@ To set up the component:
 1. Get the component from [GitHub] (https://github.com/TheWeatherCompany/Salesforce-Snapshot) and deploy it to Salesforce.
 2. In Salesforce, create a CSP Trusted Site for https://api.weather.com to access the Weather Company APIs (see Create CSP Trusted Sites to Access Third-Party APIs).
 3. Add the component to the case page by editing the page in the Lightning App Builder (see Configure Lightning Experience Record Pages). 
-a. In the Lightning Components list, scroll down to the Custom – Managed section.
-b. Click Weather Company Snapshot and drag the component to any place on the page.
-c. In the properties pane, select the default type of units to display. 
-d. Save and activate the updated page.
+  - In the Lightning Components list, scroll down to the Custom – Managed section.
+  - Click Weather Company Snapshot and drag the component to any place on the page.
+  - In the properties pane, select the default type of units to display. 
+  - Save and activate the updated page.
 4. Add the Weather Location field and Weather Snapshots related list to the case page. The Snapshot component displays the weather for the location specified in the Weather Location custom field. The Weather Snapshots related list displays all the snapshots that are associated with the case.
-- In Setup > Object Manager, edit the page layout for the case object. 
-- Add the Weather Location field to the case detail section. 
-- Add the Weather Snapshots related list to the related lists section. 
+  - In Setup > Object Manager, edit the page layout for the case object. 
+  - Add the Weather Location field to the case detail section. 
+  - Add the Weather Snapshots related list to the related lists section. 
 5. Grant users the required permissions for the component. In Setup > Permission Sets, assign users the WeatherSnapshot permission set (see Assign a Permission Set to Multiple Users). 
 6. Enter the API key. In Custom Metadata Types, edit the SUN_Weather API record (see Add or Edit Custom Metadata Records Declaratively). For the API Key field, specify the API key you received when you purchased the data package.  For the API User field, don’t specify a value.  Tip: If the API Key field is not displayed for the API record, edit its page layout.
 7. Disable the sample data response and activate the API calls to Weather.com. In the src/aura/Snapshot/Snapshot.cmp file, change the useMockup attribute to false. Tip: To improve performance, configure Salesforce to automatically add geocodes to all Account, Contact, and Lead records (see Set Up Geocode Data Integration Rules). Snapshot then uses the geocode values instead of making API calls to determine the latitude and longitude for each address. 
