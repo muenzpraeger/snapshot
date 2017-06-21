@@ -1,22 +1,11 @@
-# Salesforce-Snapshot
+# Weather Company Snapshot 
+## Unmanaged Component Guide
 
-You can use the [editor on GitHub](https://github.com/TheWeatherCompany/salesforce-weatherwise-page/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Weather Company Snapshot allows you to see weather conditions associated with a case and save them for future use. For example, when a customer reports that their car was damaged by hail, the customer service representative can save a snapshot of the current weather information and add it to the case. When the claims analyst reviews the case, they can see the weather information to verify that the damage could have been caused by hail.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
+Snapshot adds the following weather data to case pages:
+- Current weather conditions (temperature, chance of precipitation, and wind speed)
+- Weather conditions for the past 24 hours
 
 1. Numbered
 2. List
