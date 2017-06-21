@@ -18,7 +18,7 @@ By purchasing a data package and access key from The Weather Company, you can in
 - Weather Company Data for Salesforce – Enhanced: More precise and frequent weather observations, precipitation forecast, 15-minute forecast, and Nowcast
 - Weather Company Data for Salesforce – Severe Weather: Information on conditions including hail, lightning, and storms, and a power disruption index
 
-To purchase a Weather Company data package, ![click here](https://business.weather.com/product-categories/the-weather-company-data-solutions).
+To purchase a Weather Company data package, [click here](https://business.weather.com/product-categories/the-weather-company-data-solutions).
 
 ## Installing and Configuring the Component
 ### System Requirements
