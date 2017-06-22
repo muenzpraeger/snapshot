@@ -1,5 +1,4 @@
-# Weather Company Snapshot 
-## Unmanaged Component Guide
+# The Weather Snapshot Unmanaged Component Guide
 
 Weather Company Snapshot allows you to see weather conditions associated with a case and save them for future use. For example, when a customer reports that their car was damaged by hail, the customer service representative can save a snapshot of the current weather information and add it to the case. When the claims analyst reviews the case, they can see the weather information to verify that the damage could have been caused by hail.
 
