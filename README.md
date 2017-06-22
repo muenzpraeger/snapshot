@@ -17,6 +17,7 @@ By purchasing a data package and access key from The Weather Company, you can in
 - Weather Company Data for Salesforce – Core: Daily forecasts for the next 10 days, hourly forecasts for the next 48 hours, and historical weather conditions for the past 24 hours
 - Weather Company Data for Salesforce – Enhanced: More precise and frequent weather observations, precipitation forecast, 15-minute forecast, and Nowcast
 - Weather Company Data for Salesforce – Severe Weather: Information on conditions including hail, lightning, and storms, and a power disruption index
+- History on Demand: Historical data back to 2011, such as surface temperature, wind speed, wind direction, relative humidity, atmospheric pressure, and dew point. 
 
 To purchase a Weather Company data package, [click here](https://business.weather.com/product-categories/the-weather-company-data-solutions).
 
