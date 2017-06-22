@@ -34,7 +34,7 @@ To set up the component:
   - Click Weather Company Snapshot and drag the component to any place on the page.
   - In the properties pane, select the default type of units to display. 
   - Save and activate the updated page.
-4. Add the Weather Location field and Weather Snapshots related list to the case page. The Snapshot component displays the weather for the location specified in the Weather Location custom field. The Weather Snapshots related list displays all the snapshots that are associated with the case.
+4. Add the Weather Location field and Weather Snapshots related list to the case page. The Snapshot component displays the weather for the location specified in the Weather Location custom field. The Weather Snapshots related list displays all the snapshots that are associated with the case. 
   - In **Setup > Object Manager**, edit the page layout for the case object. 
   - Add the Weather Location field to the case detail section. 
   - Add the Weather Snapshots related list to the related lists section. 
