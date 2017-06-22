@@ -31,7 +31,7 @@ To set up the component:
 1. Get the component from [GitHub](https://github.com/TheWeatherCompany/Salesforce-Snapshot) and deploy it to Salesforce.
 2. In Salesforce, create a CSP Trusted Site for https://api.weather.com to access the Weather Company APIs [see Create CSP Trusted Sites to Access Third-Party APIs](https://help.salesforce.com/articleView?id=csp_trusted_sites.htm).
 3. Add the component to the case page by editing the page in the Lightning App Builder see [Configure Lightning Experience Record Pages](https://help.salesforce.com/articleView?id=csp_trusted_sites.htm). 
-  - In the **Lightning Components** list, scroll down to the **Custom – Managed section**.
+  - In the **Lightning Components** list, scroll down to the **Custom – Managed** section.
   - Click Weather Company Snapshot and drag the component to any place on the page.
   - In the properties pane, select the default type of units to display. 
   - Save and activate the updated page.
